@@ -1,10 +1,29 @@
+
 .container-1 {
-    background-color: gray;
+    background-color:rgb(19, 19, 73);
+    margin:0;
 }
+.button-1 {
+padding: 8px px; 
+border-radius:8px; 
+}
+button.extra-info {
+    color:white; 
+    background-color:royalblue;
+}
+.container-2 {
+    display:flex; 
+    align-content:center;
+    gap:16px;
+   }
 .header {
     font-size: 16px;
     align-content:center;
     justify-content:center;
+}
+.logo{
+    width:300px; 
+    height:auto;
 }
 .header, .header-links {
     display:flex;
@@ -26,16 +45,32 @@ display:flex;
 align-items: flex-end;
 justify-content:flex-end;
 height:300px;
+
 }
 .left-box {
 display:flex; 
-flex-direction: column;
-flex-wrap:wrap;
+flex:1;
 width:500px;
 height:auto;
 align-content: center;
 justify-content: center;
+color:white;
+}
 
+.hero-classes {
+ display:flex; 
+ align-content:center;
+}
+   
+.s-img, .a-img, .b-img, .c-img {
+    display:flex; 
+    height:300px; 
+    width:300px;
+}
+.a-class {
+    display:flex;
+    align-content:flex-start;
+    flex-direction: column;
 }
 ul {
 display:flex;
