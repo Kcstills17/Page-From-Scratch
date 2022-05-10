@@ -1,11 +1,14 @@
-
+body{
+  margin-bottom:48px;
+  margin-top:0;
+  margin-left:0;
+  margin-right:0
+}
 .container-1 {
     background-color:rgb(19, 19, 73);
     margin:0;
 }
-.container-2 {
-    margin:50px;
-}
+
 .button-1 {
 padding: 8px px; 
 border-radius:8px; 
@@ -15,10 +18,21 @@ button.extra-info {
     background-color:royalblue;
 }
 .container-2 {
-    display:flex; 
-    align-content:center;
-    gap:16px;
-   }
+padding:8px;   
+}
+.container-3 {
+display:flex;
+height:300px;
+align-content:center;
+justify-content:center;
+flex-wrap: wrap;
+background-color: rgb(212, 208, 208);
+}
+.container-4{
+    display:flex;
+    height:300px;
+}
+ 
 .header {
     font-size: 16px;
     align-content:center;
@@ -42,40 +56,68 @@ button.extra-info {
     
     
 }
+.box-1 {
+    display:flex;
+    justify-content:space-between;
+    align-content: center;
+
+}
 .right-box {
-display:flex;
-align-items: flex-end;
-justify-content:flex-end;
-height:300px;
+    display:flex;
+    align-content:flex-end;
+    justify-content:space-between;
+
+
 
 }
 .left-box {
-
-flex:1;
-width:500px;
-height:auto;
-align-content: center;
-justify-content: center;
+padding:100px;
 color:white;
+}
+.world {
+    font-size:48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .hero-classes {
  display:flex; 
  flex-direction: row;
+ align-content:center;
+ justify-content:center;
+ margin:24px;
+ font-size: 48px;
+ font-weight: 700;
  
+}
+.hero-images-text {
+    display:flex;
+    gap:16px;
+    justify-content: space-between;
+    font-family: sans-serif;
 }
    
 .s-img, .a-img, .b-img, .c-img {
     display:flex; 
     height:300px; 
     width:300px;
-    border-color: aqua;
-    border-radius: 20px;
+    border-color:rgb(38, 120, 228);
+    border-radius:10px;
+    border-style:groove;
+    border-width: 10px;
+    flex-wrap: wrap;
 }
 .a-class {
     display:flex;
     align-content:flex-start;
     flex-direction: column;
+}
+.mumen-quote {
+    font-size: 48px;
+    font-style: italic;
+}
+.mumen-credit {
+    font-size:16px;
+    font-weight: 700;
 }
 ul {
 display:flex;
