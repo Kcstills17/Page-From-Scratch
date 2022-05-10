@@ -3,6 +3,9 @@
     background-color:rgb(19, 19, 73);
     margin:0;
 }
+.container-2 {
+    margin:50px;
+}
 .button-1 {
 padding: 8px px; 
 border-radius:8px; 
@@ -20,21 +23,20 @@ button.extra-info {
     font-size: 16px;
     align-content:center;
     justify-content:center;
+    display:flex;
 }
 .logo{
     width:300px; 
     height:auto;
 }
 .header, .header-links {
-    display:flex;
     justify-content: space-between;
     margin:0; 
     padding:0;
     color:white;
 }
 .header-links {
-    display:flex; 
-    align-items: flex-end;
+     align-items: flex-end;
     justify-content: end;
     flex-direction:row;
     
@@ -48,7 +50,7 @@ height:300px;
 
 }
 .left-box {
-display:flex; 
+
 flex:1;
 width:500px;
 height:auto;
@@ -59,13 +61,16 @@ color:white;
 
 .hero-classes {
  display:flex; 
- align-content:center;
+ flex-direction: row;
+ 
 }
    
 .s-img, .a-img, .b-img, .c-img {
     display:flex; 
     height:300px; 
     width:300px;
+    border-color: aqua;
+    border-radius: 20px;
 }
 .a-class {
     display:flex;
