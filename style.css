@@ -5,32 +5,51 @@ body{
   margin-right:0
 }
 .container-1 {
-    background-color:rgb(19, 19, 73);
+    background-color:#1f2937;
     margin:0;
 }
 
 .button-1 {
-padding: 8px px; 
+padding: 8px; 
 border-radius:8px; 
 }
 button.extra-info {
     color:white; 
-    background-color:royalblue;
+    background-color:#3882f6;
 }
+button-2 {
+    padding: 8px; 
+    border-radius:8px
+}
+button.one-tap {
+color:white;
+background-color:#3882f6;
+padding: 8px 16px;
+border-color:white;
+border-radius:8px;
+
+    
+}
+
 .container-2 {
 padding:8px;   
 }
 .container-3 {
 display:flex;
 height:300px;
+width:auto;
 align-content:center;
 justify-content:center;
 flex-wrap: wrap;
-background-color: rgb(212, 208, 208);
+background-color:#e5e7eb;
 }
-.container-4{
+.container-4{ 
     display:flex;
+    align-content:center;
+    justify-content:center;
     height:300px;
+    width:auto;
+    margin:50px;
 }
  
 .header {
@@ -78,6 +97,9 @@ color:white;
     font-size:48px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.header-text {
+    font-size:18px;
+}
 
 .hero-classes {
  display:flex; 
@@ -90,35 +112,60 @@ color:white;
  
 }
 .hero-images-text {
+   
     display:flex;
-    gap:16px;
+    flex:1 0 auto;
     justify-content: space-between;
     font-family: sans-serif;
 }
    
 .s-img, .a-img, .b-img, .c-img {
+
     display:flex; 
     height:300px; 
     width:300px;
-    border-color:rgb(38, 120, 228);
+    border-color:#3882f6;
     border-radius:10px;
     border-style:groove;
     border-width: 10px;
     flex-wrap: wrap;
 }
-.a-class {
-    display:flex;
-    align-content:flex-start;
-    flex-direction: column;
-}
+
 .mumen-quote {
-    font-size: 48px;
-    font-style: italic;
+    font-size: 36px;
+    font-style:italic;
+    color:#1f2937
+    
 }
 .mumen-credit {
-    font-size:16px;
-    font-weight: 700;
+    font-size:20px;
+    font-weight:700;
+    
+   
 }
+.footer {
+width:1500px;
+height:100px;
+background-color:#3882f6;
+color:white;
+padding-top:50px;
+}
+.foot-head {
+display:flex;
+align-content:center;
+justify-content:flex-start;
+font-size:36px;
+padding-left:48px;
+
+}
+.foot-body {
+    font-size:24px;
+ display:flex;
+align-content:center;
+justify-content:space-between;
+padding-left:48px;
+}
+
 ul {
 display:flex;
 list-style:none ;
